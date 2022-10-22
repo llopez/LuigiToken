@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+# Luigi (LUI) Erc20 Token
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+My own ERC20 Token deployed to Goerli Network
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+Etherscan - https://goerli.etherscan.io/address/0x6820319119b7807f494eD00EdBAa243e90A442f3
