@@ -7,7 +7,9 @@ async function main() {
 
   const luigi = await Luigi.deploy(initialSupply);
 
-  await luigi.deployed();
+  const { address } = await luigi.deployed();
+
+  console.log("Contract deployed to: ", address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
